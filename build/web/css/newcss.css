@@ -1,0 +1,153 @@
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+body 
+{
+ position: relative;
+ height : auto;
+ padding-bottom: 3%;
+min-width:900px;
+background: url(../image/kazani.jpg)  no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ background-size: cover;
+color:#ffffff;
+
+  font: 13.34px Arial, sans-serif;
+  font-size: medium;
+  text-align: left;
+
+
+
+ 
+
+
+  
+}
+#titlos {
+        
+        
+        position:relative;
+	text-align:center;
+	color:#171a1a;
+        
+        
+        
+}
+
+.nav{
+    position:relative
+}
+
+.border
+{
+border:2px solid #a1a1a1;
+padding:10px 40px; 
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #171a1a));
+background:-moz-linear-gradient(top, #768d87 5%, #171a1a 100%);
+background:-webkit-linear-gradient(top, #768d87 5%, #171a1a 100%);
+background:-o-linear-gradient(top, #768d87 5%, #171a1a 100%);
+background:-ms-linear-gradient(top, #768d87 5%, #171a1a 100%);
+background:linear-gradient(to bottom, #768d87 5%, #171a1a 100%);
+margin-left:auto;
+margin-right:auto;
+width:300px;
+border-radius:25px;
+box-shadow: 10px 10px 5px #888888;
+}
+
+.myButton {
+       
+      
+      
+        position: relative;
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #171a1a));
+	background:-moz-linear-gradient(top, #768d87 5%, #171a1a 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #171a1a 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #171a1a 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #171a1a 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #171a1a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#171a1a',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #438c81;
+        
+}
+.myButton:hover {
+        text-align: center;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #171a1a), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #171a1a 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #171a1a 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #171a1a 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #171a1a 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #171a1a 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#171a1a', endColorstr='#768d87',GradientType=0);
+	background-color:#171a1a;
+}
+.myButton:active {
+        text-align: center;
+	position: initial;
+	top:1px;
+}
+
+
+.header {
+	position: fixed;
+	margin: 0 auto;
+	display: block;
+	height: 7%;
+	width: 100%;
+	text-align: left;
+        background-color:   #404D59;
+        color:	#FFFFFF;
+        padding-left: 1%;
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+#footer {
+	width:100%;
+	height:3%;
+	position:fixed;
+        bottom:0;
+	left:0;
+	background-color:   #404D59;
+        color:	#FFFFFF;
+        padding-left: 1%;
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+
+h8 {
+  padding-left:1.5%;  
+  color : white;   
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+h2{
+   font-size: 3em; 
+   
+}
